@@ -1,8 +1,7 @@
 # Buah Sayur Classification API
-
 A machine learning-powered REST API for classifying fruits and vegetables using TensorFlow.js. This service can identify 10 different types of fruits and vegetables from uploaded images and provides educational content including descriptions, benefits, and interactive quizzes.
 
-## 🚀 Features
+## Features
 
 - **Image Classification**: Classify 10 types of fruits and vegetables from uploaded images
 - **Educational Content**: Get Wikipedia descriptions and health benefits for each classified item
@@ -11,21 +10,21 @@ A machine learning-powered REST API for classifying fruits and vegetables using 
 - **Docker Support**: Containerized application for easy deployment
 - **Google Cloud Run**: Production-ready deployment on Google Cloud Platform
 
-## 📋 Supported Classifications
+## Supported Classifications
 
 The API can classify the following fruits and vegetables:
-- 🍎 **Apel** (Apple)
-- 🥦 **Brokoli** (Broccoli) 
-- 🍊 **Jeruk** (Orange)
-- 🥬 **Kangkung** (Water Spinach)
-- 🥭 **Mangga** (Mango)
-- 🍌 **Pisang** (Banana)
-- 🍓 **Strawberry**
-- 🍆 **Terong** (Eggplant)
-- 🌱 **Toge** (Bean Sprouts)
-- 🥕 **Wortel** (Carrot)
+- **Apel** (Apple)
+- **Brokoli** (Broccoli) 
+- **Jeruk** (Orange)
+- **Kangkung** (Water Spinach)
+- **Mangga** (Mango)
+- **Pisang** (Banana)
+- **Strawberry**
+- **Terong** (Eggplant)
+- **Toge** (Bean Sprouts)
+- **Wortel** (Carrot)
 
-## 🛠️ Technology Stack
+## Technology Stack
 
 - **Runtime**: Node.js
 - **Framework**: Hapi.js
@@ -35,7 +34,7 @@ The API can classify the following fruits and vegetables:
 - **Deployment**: Google Cloud Run
 - **External APIs**: Wikipedia API
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 buahsayur/
@@ -62,7 +61,7 @@ buahsayur/
 └── README.md
 ```
 
-## 🚀 Quick Start
+## Quick Start
 
 ### Prerequisites
 
@@ -160,7 +159,7 @@ Submit an answer to a quiz question.
 }
 ```
 
-## 🧪 Testing with Postman
+## Testing with Postman
 
 ### Local Testing
 
@@ -187,7 +186,7 @@ Submit an answer to a quiz question.
    - Body: form-data
    - Keys: `question` and `option`
 
-## 🐳 Docker Deployment
+## Docker Deployment
 
 ### Build Docker Image
 
@@ -207,7 +206,7 @@ docker run -p 3000:3000 -e PORT=3000 gcr.io/capstone-buahsayur/debusa-app:latest
 docker push gcr.io/capstone-buahsayur/debusa-app:latest
 ```
 
-## ☁️ Google Cloud Deployment
+## Google Cloud Deployment
 
 ### 1. Set up Google Cloud Storage
 
@@ -248,19 +247,7 @@ docker push gcr.io/capstone-buahsayur/debusa-app:latest
 - Input shape: [416, 416, 3] (RGB images)
 - Output: 10 classes corresponding to the supported fruits/vegetables
 
-## 🤝 Contributing
-
-1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/amazing-feature`)
-3. Commit your changes (`git commit -m 'Add some amazing feature'`)
-4. Push to the branch (`git push origin feature/amazing-feature`)
-5. Open a Pull Request
-
-## 📝 License
-
-This project is licensed under the ISC License - see the [LICENSE](LICENSE) file for details.
-
-## 🐛 Troubleshooting
+## Troubleshooting
 
 ### Common Issues
 
@@ -282,11 +269,3 @@ Run the server with additional logging:
 ```bash
 DEBUG=* npm run start:dev
 ```
-
-## 📞 Support
-
-For support and questions, please open an issue in the repository or contact the development team.
-
----
-
-**Made with ❤️ for educational purposes**
