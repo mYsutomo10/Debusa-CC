@@ -232,7 +232,7 @@ docker push gcr.io/capstone-buahsayur/debusa-app:latest
    - `PORT`: 3000
 6. Deploy the service
 
-## 🔧 Configuration
+## Configuration
 
 ### Environment Variables
 
