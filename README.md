@@ -98,7 +98,7 @@ buahsayur/
 5. **Test the API**
    The server will be running at `http://localhost:3000`
 
-## 📡 API Endpoints
+## API Endpoints
 
 ### 1. Predict Classification
 
